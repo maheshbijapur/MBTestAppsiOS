@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		215322A40217EF9E1E4679BCF0CBE5A2 /* Marketo-iOS-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E9D9D3BBC345A65F43AB3A8E6A8B6847 /* Build configuration list for PBXAggregateTarget "Marketo-iOS-SDK" */;
+			buildPhases = (
+				8CFCD5BD9AE99FCDEC0FD2D9E27AD6EB /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				0E9E21B6CB2EB02F10EFA1B27DE73487 /* PBXTargetDependency */,
+			);
+			name = "Marketo-iOS-SDK";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3BF99D629DD0B6FA4222DD9B999EEBAD /* MKTInApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BA50A84B4373F525DD65E1FA374B72 /* MKTInApp.storyboard */; };
+		8910CCA57DBD0CA8312D7739A083FD9F /* gradient-slice.png in Resources */ = {isa = PBXBuildFile; fileRef = 270B0FC1A0499D91215A81781C195A21 /* gradient-slice.png */; };
+		B386E8754D39DC014D7315EFAF7B3706 /* Pods-radial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF23349A127DEAAB5816B76DADDBBD /* Pods-radial-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D695CCF6B21656A915A41659A7719ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3554A03A2FF1467FB928FA905B617EA;
+			remoteInfo = "Marketo-iOS-SDK-MKTResources";
+		};
+		96569C58E8882EDFB59E5271E62B6965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215322A40217EF9E1E4679BCF0CBE5A2;
+			remoteInfo = "Marketo-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C2757FAA2BF8A6B787CF457237C115C /* MarketoFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MarketoFramework.h; path = "Sources/MarketoFramework.xcframework/ios-arm64/MarketoFramework.framework/Headers/MarketoFramework.h"; sourceTree = "<group>"; };
+		0FDF23349A127DEAAB5816B76DADDBBD /* Pods-radial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-radial-dummy.m"; sourceTree = "<group>"; };
+		270B0FC1A0499D91215A81781C195A21 /* gradient-slice.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "gradient-slice.png"; path = "ResourcePod/gradient-slice.png"; sourceTree = "<group>"; };
+		27AE1E4E1B60010D91BC6A3A9C661325 /* MarketoActionMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MarketoActionMetaData.h; path = "Sources/MarketoFramework.xcframework/ios-arm64_x86_64-simulator/MarketoFramework.framework/Headers/MarketoActionMetaData.h"; sourceTree = "<group>"; };
+		285D0BC14A26903C2D6961416A2DD5C4 /* Pods-radial-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-radial-frameworks.sh"; sourceTree = "<group>"; };
+		28BA50A84B4373F525DD65E1FA374B72 /* MKTInApp.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = MKTInApp.storyboard; path = ResourcePod/MKTInApp.storyboard; sourceTree = "<group>"; };
+		440F8BF2957B22767DE418A8A6060B8C /* MarketoLead.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MarketoLead.h; path = "Sources/MarketoFramework.xcframework/ios-arm64/MarketoFramework.framework/Headers/MarketoLead.h"; sourceTree = "<group>"; };
+		47A72405FDA264124B46598FBA9BD26C /* Pods-radial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-radial.debug.xcconfig"; sourceTree = "<group>"; };
+		4A7203173AF76F2FF5AEB65A2044F675 /* Pods-radial-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-radial-acknowledgements.markdown"; sourceTree = "<group>"; };
+		550343511D7119EE0FCBDA8B4003118D /* Pods-radial */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-radial"; path = "libPods-radial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		588C5B6B49CD8500499531EDC1FE165F /* Pods-radial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-radial.release.xcconfig"; sourceTree = "<group>"; };
+		6FBFCCB61FC3C1628544B7632C651DFC /* Marketo-iOS-SDK-MKTResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Marketo-iOS-SDK-MKTResources"; path = MKTResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C29F43AE98C9EC313066E10A037CD9 /* Pods-radial-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-radial-resources.sh"; sourceTree = "<group>"; };
+		7F68B4631C82612897401F41D4330EF4 /* Marketo-iOS-SDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Marketo-iOS-SDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		9C35BF13254A08C3A0B3180CFC1D0FC9 /* MarketoFramework.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MarketoFramework.xcframework; path = Sources/MarketoFramework.xcframework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7B7437B0EE7C3ED46624791EF2BABF /* MKTSecuritySignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTSecuritySignature.h; path = "Sources/MarketoFramework.xcframework/ios-arm64/MarketoFramework.framework/Headers/MKTSecuritySignature.h"; sourceTree = "<group>"; };
+		B58D07E7629E3BC51BD99F478FDBD18C /* Marketo-iOS-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Marketo-iOS-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		B68D07A56912A8ED41C980492954B110 /* ResourceBundle-MKTResources-Marketo-iOS-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MKTResources-Marketo-iOS-SDK-Info.plist"; sourceTree = "<group>"; };
+		C107D1689CEDAA4B96CCF33FF102E2FD /* MarketoLead.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MarketoLead.h; path = "Sources/MarketoFramework.xcframework/ios-arm64_x86_64-simulator/MarketoFramework.framework/Headers/MarketoLead.h"; sourceTree = "<group>"; };
+		C1A477A6E45E93080DEFB77677EBAF08 /* Marketo-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Marketo-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		D2A67DADFF8C3B2A2C0669DE4F61E69E /* Marketo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Marketo.h; path = "Sources/MarketoFramework.xcframework/ios-arm64/MarketoFramework.framework/Headers/Marketo.h"; sourceTree = "<group>"; };
+		D7C3EB35E5CD365CAD8629E8AC76E4D6 /* MarketoFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MarketoFramework.h; path = "Sources/MarketoFramework.xcframework/ios-arm64_x86_64-simulator/MarketoFramework.framework/Headers/MarketoFramework.h"; sourceTree = "<group>"; };
+		D90440A062579768C0B571E799837CE9 /* Marketo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Marketo.h; path = "Sources/MarketoFramework.xcframework/ios-arm64_x86_64-simulator/MarketoFramework.framework/Headers/Marketo.h"; sourceTree = "<group>"; };
+		DE7D915D67F1CAA03A731FFAAD1BD1BB /* MarketoActionMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MarketoActionMetaData.h; path = "Sources/MarketoFramework.xcframework/ios-arm64/MarketoFramework.framework/Headers/MarketoActionMetaData.h"; sourceTree = "<group>"; };
+		E40F17C9049303A75B944CD82F3376B7 /* Pods-radial-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-radial-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB9B8B73AD2BBE09782E98B248A4190E /* MKTSecuritySignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTSecuritySignature.h; path = "Sources/MarketoFramework.xcframework/ios-arm64_x86_64-simulator/MarketoFramework.framework/Headers/MKTSecuritySignature.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E696F02D3B55E67A973CF611FA03CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F99B7FF934FB48B7F06A47968296AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CEF9CB58E13242DE54E80D13A02E7AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C70BCA479D9EE596F1A1717B66B6565 /* Marketo-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D5DFCA9472225A5EF1F616408B7AC58 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE05363B052C57C21CCFEFC7649D449 /* Pods-radial */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C70BCA479D9EE596F1A1717B66B6565 /* Marketo-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D2A67DADFF8C3B2A2C0669DE4F61E69E /* Marketo.h */,
+				D90440A062579768C0B571E799837CE9 /* Marketo.h */,
+				DE7D915D67F1CAA03A731FFAAD1BD1BB /* MarketoActionMetaData.h */,
+				27AE1E4E1B60010D91BC6A3A9C661325 /* MarketoActionMetaData.h */,
+				0C2757FAA2BF8A6B787CF457237C115C /* MarketoFramework.h */,
+				D7C3EB35E5CD365CAD8629E8AC76E4D6 /* MarketoFramework.h */,
+				440F8BF2957B22767DE418A8A6060B8C /* MarketoLead.h */,
+				C107D1689CEDAA4B96CCF33FF102E2FD /* MarketoLead.h */,
+				9E7B7437B0EE7C3ED46624791EF2BABF /* MKTSecuritySignature.h */,
+				EB9B8B73AD2BBE09782E98B248A4190E /* MKTSecuritySignature.h */,
+				8D3B3D4ABADE48FAA19B3631F947E20F /* Frameworks */,
+				6264F95D992220391ED101C2949803AB /* Resources */,
+				879BC52C65812E91F5030DC79EA5698D /* Support Files */,
+			);
+			name = "Marketo-iOS-SDK";
+			path = "Marketo-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		5A90AD4147CEBF2290F3C65EDF62BCFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FBFCCB61FC3C1628544B7632C651DFC /* Marketo-iOS-SDK-MKTResources */,
+				550343511D7119EE0FCBDA8B4003118D /* Pods-radial */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6264F95D992220391ED101C2949803AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				270B0FC1A0499D91215A81781C195A21 /* gradient-slice.png */,
+				28BA50A84B4373F525DD65E1FA374B72 /* MKTInApp.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		879BC52C65812E91F5030DC79EA5698D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F68B4631C82612897401F41D4330EF4 /* Marketo-iOS-SDK-xcframeworks.sh */,
+				C1A477A6E45E93080DEFB77677EBAF08 /* Marketo-iOS-SDK.debug.xcconfig */,
+				B58D07E7629E3BC51BD99F478FDBD18C /* Marketo-iOS-SDK.release.xcconfig */,
+				B68D07A56912A8ED41C980492954B110 /* ResourceBundle-MKTResources-Marketo-iOS-SDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Marketo-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		8D3B3D4ABADE48FAA19B3631F947E20F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C35BF13254A08C3A0B3180CFC1D0FC9 /* MarketoFramework.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				2CEF9CB58E13242DE54E80D13A02E7AA /* Pods */,
+				5A90AD4147CEBF2290F3C65EDF62BCFC /* Products */,
+				2D5DFCA9472225A5EF1F616408B7AC58 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEE05363B052C57C21CCFEFC7649D449 /* Pods-radial */ = {
+			isa = PBXGroup;
+			children = (
+				4A7203173AF76F2FF5AEB65A2044F675 /* Pods-radial-acknowledgements.markdown */,
+				E40F17C9049303A75B944CD82F3376B7 /* Pods-radial-acknowledgements.plist */,
+				0FDF23349A127DEAAB5816B76DADDBBD /* Pods-radial-dummy.m */,
+				285D0BC14A26903C2D6961416A2DD5C4 /* Pods-radial-frameworks.sh */,
+				76C29F43AE98C9EC313066E10A037CD9 /* Pods-radial-resources.sh */,
+				47A72405FDA264124B46598FBA9BD26C /* Pods-radial.debug.xcconfig */,
+				588C5B6B49CD8500499531EDC1FE165F /* Pods-radial.release.xcconfig */,
+			);
+			name = "Pods-radial";
+			path = "Target Support Files/Pods-radial";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8F904A61E20196EFB18DAEAE1E29022E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B4F78DCB56BF4E3575D5652D64F1AB9 /* Pods-radial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B99A56EEC61E0357D6D40AB5E8B15CF /* Build configuration list for PBXNativeTarget "Pods-radial" */;
+			buildPhases = (
+				8F904A61E20196EFB18DAEAE1E29022E /* Headers */,
+				606C6A3D463C0570D3A239BDE0EC63A4 /* Sources */,
+				F4F99B7FF934FB48B7F06A47968296AE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EB060BA75D862AAB71774C8F09FBE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-radial";
+			productName = "Pods-radial";
+			productReference = 550343511D7119EE0FCBDA8B4003118D /* Pods-radial */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F3554A03A2FF1467FB928FA905B617EA /* Marketo-iOS-SDK-MKTResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5270CC25662BCCC1322C444612BABCA6 /* Build configuration list for PBXNativeTarget "Marketo-iOS-SDK-MKTResources" */;
+			buildPhases = (
+				255938AAADE91E1F818754DE1429FFE8 /* Sources */,
+				0E696F02D3B55E67A973CF611FA03CE1 /* Frameworks */,
+				53CA70B5DF16E94CDA0C8FFDBD97F2EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marketo-iOS-SDK-MKTResources";
+			productName = MKTResources;
+			productReference = 6FBFCCB61FC3C1628544B7632C651DFC /* Marketo-iOS-SDK-MKTResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5A90AD4147CEBF2290F3C65EDF62BCFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				215322A40217EF9E1E4679BCF0CBE5A2 /* Marketo-iOS-SDK */,
+				F3554A03A2FF1467FB928FA905B617EA /* Marketo-iOS-SDK-MKTResources */,
+				7B4F78DCB56BF4E3575D5652D64F1AB9 /* Pods-radial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53CA70B5DF16E94CDA0C8FFDBD97F2EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8910CCA57DBD0CA8312D7739A083FD9F /* gradient-slice.png in Resources */,
+				3BF99D629DD0B6FA4222DD9B999EEBAD /* MKTInApp.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CFCD5BD9AE99FCDEC0FD2D9E27AD6EB /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Marketo-iOS-SDK/Marketo-iOS-SDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Marketo-iOS-SDK/Marketo-iOS-SDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Marketo-iOS-SDK/Marketo-iOS-SDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255938AAADE91E1F818754DE1429FFE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606C6A3D463C0570D3A239BDE0EC63A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B386E8754D39DC014D7315EFAF7B3706 /* Pods-radial-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E9E21B6CB2EB02F10EFA1B27DE73487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Marketo-iOS-SDK-MKTResources";
+			target = F3554A03A2FF1467FB928FA905B617EA /* Marketo-iOS-SDK-MKTResources */;
+			targetProxy = 8D695CCF6B21656A915A41659A7719ED /* PBXContainerItemProxy */;
+		};
+		52EB060BA75D862AAB71774C8F09FBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Marketo-iOS-SDK";
+			target = 215322A40217EF9E1E4679BCF0CBE5A2 /* Marketo-iOS-SDK */;
+			targetProxy = 96569C58E8882EDFB59E5271E62B6965 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B5390A03765DD30B68176514B5FFD1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588C5B6B49CD8500499531EDC1FE165F /* Pods-radial.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14231A975C75C3C9A13000828188826F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A477A6E45E93080DEFB77677EBAF08 /* Marketo-iOS-SDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Marketo-iOS-SDK";
+				IBSC_MODULE = Marketo_iOS_SDK;
+				INFOPLIST_FILE = "Target Support Files/Marketo-iOS-SDK/ResourceBundle-MKTResources-Marketo-iOS-SDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = MKTResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		366E3CDBDDC1652FBBD459D2AE73DFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58D07E7629E3BC51BD99F478FDBD18C /* Marketo-iOS-SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BB85CD46D2C3F112F3827E75E662C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A477A6E45E93080DEFB77677EBAF08 /* Marketo-iOS-SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		775A81216017E3B4B6BC0BA8DA2A0AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58D07E7629E3BC51BD99F478FDBD18C /* Marketo-iOS-SDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Marketo-iOS-SDK";
+				IBSC_MODULE = Marketo_iOS_SDK;
+				INFOPLIST_FILE = "Target Support Files/Marketo-iOS-SDK/ResourceBundle-MKTResources-Marketo-iOS-SDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = MKTResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		938EE53B02DBF6B55F0542C262458BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A72405FDA264124B46598FBA9BD26C /* Pods-radial.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5270CC25662BCCC1322C444612BABCA6 /* Build configuration list for PBXNativeTarget "Marketo-iOS-SDK-MKTResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14231A975C75C3C9A13000828188826F /* Debug */,
+				775A81216017E3B4B6BC0BA8DA2A0AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B99A56EEC61E0357D6D40AB5E8B15CF /* Build configuration list for PBXNativeTarget "Pods-radial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938EE53B02DBF6B55F0542C262458BD7 /* Debug */,
+				0B5390A03765DD30B68176514B5FFD1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D9D3BBC345A65F43AB3A8E6A8B6847 /* Build configuration list for PBXAggregateTarget "Marketo-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB85CD46D2C3F112F3827E75E662C56 /* Debug */,
+				366E3CDBDDC1652FBBD459D2AE73DFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

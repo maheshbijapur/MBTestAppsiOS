@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Marketo/ios-sdk.git",
+      "state" : {
+        "revision" : "9a99b2d2fb85acf32d09e7fc7c671f370e88ee50",
+        "version" : "0.8.4"
+      }
+    }
+  ],
+  "version" : 2
+}

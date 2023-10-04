@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DABA1EA2A9F3A2100467026 /* Marketo in Frameworks */ = {isa = PBXBuildFile; productRef = 3DABA1E92A9F3A2100467026 /* Marketo */; };
+		3DABA1EC2AA206B700467026 /* MKTResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DABA1EB2AA206B700467026 /* MKTResources.bundle */; };
+		3DE6CB302AB9808C000CEE66 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3DE6CB2F2AB9808C000CEE66 /* PrivacyInfo.xcprivacy */; };
+		3F44C66C21EC68E5003592CF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F44C66B21EC68E5003592CF /* SecondViewController.m */; };
+		3F509EA8212C08EC00B94821 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F509EA7212C08EC00B94821 /* AppDelegate.m */; };
+		3F509EAB212C08EC00B94821 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F509EAA212C08EC00B94821 /* ViewController.m */; };
+		3F509EAE212C08EC00B94821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F509EAC212C08EC00B94821 /* Main.storyboard */; };
+		3F509EB0212C08EF00B94821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F509EAF212C08EF00B94821 /* Assets.xcassets */; };
+		3F509EB3212C08EF00B94821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F509EB1212C08EF00B94821 /* LaunchScreen.storyboard */; };
+		3F509EB6212C08EF00B94821 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F509EB5212C08EF00B94821 /* main.m */; };
+		3FEA470C21BB562000140697 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEA470B21BB562000140697 /* GameKit.framework */; };
+		3FEA470E21BB562600140697 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEA470D21BB562600140697 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07A1EA9FE2EE34BD88735FEC /* libPods-radial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-radial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF839378E455902EE0D96F8 /* Pods-radial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-radial.debug.xcconfig"; path = "Target Support Files/Pods-radial/Pods-radial.debug.xcconfig"; sourceTree = "<group>"; };
+		31E1642DC1C5BD199D4CCB4D /* Pods-radial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-radial.release.xcconfig"; path = "Target Support Files/Pods-radial/Pods-radial.release.xcconfig"; sourceTree = "<group>"; };
+		3D00FE9329CD976800E9CEA7 /* radialRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = radialRelease.entitlements; sourceTree = "<group>"; };
+		3DABA1EB2AA206B700467026 /* MKTResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MKTResources.bundle; sourceTree = "<group>"; };
+		3DB4BC802A751DDC00020103 /* radial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "radial-Bridging-Header.h"; sourceTree = "<group>"; };
+		3DE6CB2F2AB9808C000CEE66 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3F44C66A21EC68E5003592CF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3F44C66B21EC68E5003592CF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3F509EA3212C08EC00B94821 /* marketosdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marketosdk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F509EA6212C08EC00B94821 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F509EA7212C08EC00B94821 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F509EA9212C08EC00B94821 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F509EAA212C08EC00B94821 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F509EAD212C08EC00B94821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F509EAF212C08EF00B94821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F509EB2212C08EF00B94821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F509EB4212C08EF00B94821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F509EB5212C08EF00B94821 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F7CDB6221391F7F002EEBC9 /* radial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = radial.entitlements; sourceTree = "<group>"; };
+		3FEA470B21BB562000140697 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		3FEA470D21BB562600140697 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F509EA0212C08EC00B94821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEA470C21BB562000140697 /* GameKit.framework in Frameworks */,
+				3FEA470E21BB562600140697 /* HealthKit.framework in Frameworks */,
+				3DABA1EA2A9F3A2100467026 /* Marketo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F509E9A212C08EC00B94821 = {
+			isa = PBXGroup;
+			children = (
+				3DABA1EB2AA206B700467026 /* MKTResources.bundle */,
+				3F509EA5212C08EC00B94821 /* radial */,
+				3F509EA4212C08EC00B94821 /* Products */,
+				DC7CA770DCC3A68C96258F44 /* Frameworks */,
+				3DB4BC802A751DDC00020103 /* radial-Bridging-Header.h */,
+				FA55CA441EC89A3B87C81972 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3F509EA4212C08EC00B94821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F509EA3212C08EC00B94821 /* marketosdk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F509EA5212C08EC00B94821 /* radial */ = {
+			isa = PBXGroup;
+			children = (
+				3D00FE9329CD976800E9CEA7 /* radialRelease.entitlements */,
+				3F7CDB6221391F7F002EEBC9 /* radial.entitlements */,
+				3F509EA6212C08EC00B94821 /* AppDelegate.h */,
+				3F509EA7212C08EC00B94821 /* AppDelegate.m */,
+				3DE6CB2F2AB9808C000CEE66 /* PrivacyInfo.xcprivacy */,
+				3F509EA9212C08EC00B94821 /* ViewController.h */,
+				3F509EAA212C08EC00B94821 /* ViewController.m */,
+				3F44C66A21EC68E5003592CF /* SecondViewController.h */,
+				3F44C66B21EC68E5003592CF /* SecondViewController.m */,
+				3F509EAC212C08EC00B94821 /* Main.storyboard */,
+				3F509EAF212C08EF00B94821 /* Assets.xcassets */,
+				3F509EB1212C08EF00B94821 /* LaunchScreen.storyboard */,
+				3F509EB4212C08EF00B94821 /* Info.plist */,
+				3F509EB5212C08EF00B94821 /* main.m */,
+			);
+			path = radial;
+			sourceTree = "<group>";
+		};
+		DC7CA770DCC3A68C96258F44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FEA470D21BB562600140697 /* HealthKit.framework */,
+				3FEA470B21BB562000140697 /* GameKit.framework */,
+				07A1EA9FE2EE34BD88735FEC /* libPods-radial.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA55CA441EC89A3B87C81972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BF839378E455902EE0D96F8 /* Pods-radial.debug.xcconfig */,
+				31E1642DC1C5BD199D4CCB4D /* Pods-radial.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F509EA2212C08EC00B94821 /* radial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F509EB9212C08EF00B94821 /* Build configuration list for PBXNativeTarget "radial" */;
+			buildPhases = (
+				3F509E9F212C08EC00B94821 /* Sources */,
+				3F509EA0212C08EC00B94821 /* Frameworks */,
+				3F509EA1212C08EC00B94821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = radial;
+			packageProductDependencies = (
+				3DABA1E92A9F3A2100467026 /* Marketo */,
+			);
+			productName = radial;
+			productReference = 3F509EA3212C08EC00B94821 /* marketosdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F509E9B212C08EC00B94821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = Mahesh.Bijapur;
+				TargetAttributes = {
+					3F509EA2212C08EC00B94821 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1430;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3F509E9E212C08EC00B94821 /* Build configuration list for PBXProject "radial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F509E9A212C08EC00B94821;
+			packageReferences = (
+				3DABA1E82A9F3A2100467026 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+			);
+			productRefGroup = 3F509EA4212C08EC00B94821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F509EA2212C08EC00B94821 /* radial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F509EA1212C08EC00B94821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F509EB3212C08EF00B94821 /* LaunchScreen.storyboard in Resources */,
+				3F509EB0212C08EF00B94821 /* Assets.xcassets in Resources */,
+				3DABA1EC2AA206B700467026 /* MKTResources.bundle in Resources */,
+				3DE6CB302AB9808C000CEE66 /* PrivacyInfo.xcprivacy in Resources */,
+				3F509EAE212C08EC00B94821 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F509E9F212C08EC00B94821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F44C66C21EC68E5003592CF /* SecondViewController.m in Sources */,
+				3F509EAB212C08EC00B94821 /* ViewController.m in Sources */,
+				3F509EB6212C08EF00B94821 /* main.m in Sources */,
+				3F509EA8212C08EC00B94821 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F509EAC212C08EC00B94821 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F509EAD212C08EC00B94821 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F509EB1212C08EF00B94821 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F509EB2212C08EF00B94821 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F509EB7212C08EF00B94821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F509EB8212C08EF00B94821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F509EBA212C08EF00B94821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF839378E455902EE0D96F8 /* Pods-radial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = radial/radial.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XNB9BV89F;
+				INFOPLIST_FILE = radial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vessel.abtest;
+				PRODUCT_NAME = marketosdk;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "radial-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F509EBB212C08EF00B94821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E1642DC1C5BD199D4CCB4D /* Pods-radial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = radial/radialRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XNB9BV89F;
+				INFOPLIST_FILE = radial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vessel.abtest;
+				PRODUCT_NAME = marketosdk;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "radial-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F509E9E212C08EC00B94821 /* Build configuration list for PBXProject "radial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F509EB7212C08EF00B94821 /* Debug */,
+				3F509EB8212C08EF00B94821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F509EB9212C08EF00B94821 /* Build configuration list for PBXNativeTarget "radial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F509EBA212C08EF00B94821 /* Debug */,
+				3F509EBB212C08EF00B94821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3DABA1E82A9F3A2100467026 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Marketo/ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3DABA1E92A9F3A2100467026 /* Marketo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DABA1E82A9F3A2100467026 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = Marketo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3F509E9B212C08EC00B94821 /* Project object */;
+}
